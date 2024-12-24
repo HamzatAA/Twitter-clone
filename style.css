@@ -7,3 +7,149 @@
 body{
     background: #191919;
 }
+
+.wrapper{
+    display: flex;
+}
+
+.left{
+    display: flex;
+    width: 60%%;
+}
+
+/* LEFT COLUMN 1 */
+.col1{
+    width: 40%;
+    margin-left: 8rem;
+    margin-top: 1rem;
+    border-right: .5px solid hsla(0, 0%, 76%, 0.7);
+}
+
+.col1 .links img{
+    width: 24px;
+    height: 24px;
+}
+
+.home,
+.explore,
+.notifications,
+.messages,
+.grok,
+.bookmarks,
+.communities,
+.premium,
+.verified_orgs,
+.profile,
+.more{
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    color: #fff;
+
+}
+
+.links h3{
+    margin-left: 1rem;
+}
+
+.col1 .primary_btn button{
+    background-color: #fff;
+    color: #000;
+    padding: 20px 100px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.profile img{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.profile_options img{
+    width: 15px;
+    margin-left: 100px;
+    margin-right: 4rem;
+}
+
+.information h4{
+    margin-bottom: .3rem;
+}
+
+.information p{
+    opacity: .6;
+}
+
+/* LEFT COLUMN 2 */
+.col2{
+    width: 60%;
+}
+
+.nav{
+    border-bottom: .5px solid hsla(0, 0%, 76%, 0.7);
+    height: 8vh;
+    
+}
+
+.nav a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 40px;
+    background: tomato;
+    align-items: center;
+    justify-content: center;
+}
+
+.post{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.post .happening img{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.post .happening{
+    display: flex;
+    align-items: center;
+}
+
+.post input{
+    color: hsla(0, 0%, 76%, 0.7);
+    font-size: 1.5rem;
+    margin: 10px 100px 10px 0;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.under .quick_links img{
+    width:15px;
+    height: 15px;
+    margin-left: .2rem;
+}
+
+.under .quick_links img:first-child{
+    margin-left: 2rem;
+}
+
+.under{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.under button{
+    background-color: #fff;
+    color: #000;
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-size: .9rem;
+    font-weight: 700;
+}
