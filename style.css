@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -5,7 +7,8 @@
 }
 
 body{
-    background: #191919;
+    background: #000;
+    font-family: Nunito Sans, sans-serif;
 }
 
 .wrapper{
@@ -46,8 +49,8 @@ body{
     align-items: center;
     padding: 15px 0;
     color: #fff;
-
 }
+
 
 .links h3{
     margin-left: 1rem;
@@ -71,7 +74,7 @@ body{
 .profile_options img{
     width: 15px;
     margin-left: 100px;
-    margin-right: 4rem;
+    margin-right: 1.5rem;
 }
 
 .information h4{
@@ -103,6 +106,10 @@ body{
     background: tomato;
     align-items: center;
     justify-content: center;
+}
+
+.col2 .nav a{
+    margin-top: 5rem;
 }
 
 .post{
@@ -198,6 +205,30 @@ body{
     margin-left: 2rem;
     color: #fff;
 }
+
+.searchbar{
+    background-color: hsla(0, 0%, 76%, 0.7);
+    border-radius: 50px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    margin-top: .5rem;
+}
+
+.searchbar img{
+    width: 14px;
+    height: 14px;
+}
+
+.searchbar input{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin-left: .7rem;
+    color: ;
+}
+
 .subscribe{
     padding: 1rem;
     margin-top: 1.5rem;
@@ -270,6 +301,3 @@ body{
     font-size: .8rem;
 }
 
-.btm_footer{
-    display: flex;
-}
